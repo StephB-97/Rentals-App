@@ -13,7 +13,7 @@
             </div>
             <div class="navbar-nav ms-auto">
                 <!--show this options if not an user-->
-                <% if(!currentUser) {%>
+                <% if(!locals.currentUser) {%>
                 <a class="nav-link" href="/login">Login</a>
                 <a class="nav-link" href="/register">Register</a>
                 <%} else{%>
